@@ -10,5 +10,24 @@ namespace Sweepstakes_Project
         //HAS A
         //SPAWNER
         //CAN DO
+        public void GetSweepstakes(string name)
+        {
+            throw new System.NotImplementedException();
+        }
+        public void RegisterContestant(Contestant contestant)
+        {
+            //check factory pattern
+        }
+        public string PickWinner()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void PrintContestantInfo(Contestant contestant)
+        {
+            throw new System.NotImplementedException();
+        }
+      
+        
     }
 }

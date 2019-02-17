@@ -9,5 +9,10 @@ namespace Sweepstakes_Project
     {
         //HAS A
         //CAN DO
+    public static void PromptForYesOrNo()
+        {
+            Console.WriteLine("Type yes or no.");
+        }
+            
     }
 }
