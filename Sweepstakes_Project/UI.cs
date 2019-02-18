@@ -126,7 +126,7 @@ namespace Sweepstakes_Project
             //receive name
             firstName = Console.ReadLine();
         }
-        static int GetRegistrationNumber()
+        public static int GetRegistrationNumber()
         {
             int result = UI.GetRandomNumber(1, 1000);
             return result;

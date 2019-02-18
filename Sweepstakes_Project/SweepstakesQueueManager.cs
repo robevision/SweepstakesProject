@@ -11,6 +11,8 @@ namespace Sweepstakes_Project
        Sweepstakes sweepstakes;
         //SPAWNER
         //CAN DO
+
+            //add and take out functionality is needed
         public void InsertSweepstakes(Sweepstakes sweepstakes)
         {
             Queue<int> myQueue = new Queue<int> { };

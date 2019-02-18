@@ -8,9 +8,9 @@ namespace Sweepstakes_Project
     public class Contestant
     {
         //HAS A
-        string firstName;
-        string lastName;
-        string emailAddress;
+        public string firstName;
+        public string lastName;
+        public string emailAddress;
         int registrationNumber;
         //SPAWNER
         public Contestant()
