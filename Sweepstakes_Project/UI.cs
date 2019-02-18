@@ -9,7 +9,16 @@ namespace Sweepstakes_Project
     {
         //HAS A
         //CAN DO
-    public static void PromptForYesOrNo()
+        private static readonly Random getRandom = new Random();
+
+        public static int GetRandomNumber(int min, int max)
+        {
+            lock (getRandom) 
+            {
+                return getRandom.Next(min, max);
+            }
+        }
+        public static void PromptForYesOrNo()
         {
             Console.WriteLine("Type yes or no.");
         }

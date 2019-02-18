@@ -7,22 +7,6 @@ namespace Sweepstakes_Project
 {
     public class MarketingFirm
     {
-        public Contestant Contestant
-        {
-            get => default(Contestant);
-            set
-            {
-            }
-        }
-
-        public Sweepstakes Sweepstakes
-        {
-            get => default(Sweepstakes);
-            set
-            {
-            }
-        }
-
         public SweepstakesStackManager SweepstakesStackManager
         {
             get => default(SweepstakesStackManager);
