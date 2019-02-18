@@ -10,6 +10,10 @@ namespace Sweepstakes_Project
     {
         static void Main(string[] args)
         {
+            SweepstakesManagerFactory factory = new SweepstakesManagerFactory();
+            factory.GetSweepstakesManagement();
+            MarketingFirm marketingFirm = new MarketingFirm();
+
         }
     }
 }

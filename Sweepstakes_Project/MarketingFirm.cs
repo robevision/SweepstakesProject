@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sweepstakes_Project
 {
-    public class MarketingFirm
+    public class MarketingFirm : ISweepstakesManager
     {
         public SweepstakesStackManager SweepstakesStackManager
         {
@@ -23,7 +23,17 @@ namespace Sweepstakes_Project
             }
         }
         //HAS A
+        public Sweepstakes sweepstakes;
         //SPAWNER
         //CAN DO
+        public void InsertSweepstakes(Sweepstakes sweepstakes)
+        {
+
+        }
+        public Sweepstakes GetSweepstakes(string name)
+        {
+            sweepstakes = new Sweepstakes();
+            return sweepstakes;
+        }
     }
 }

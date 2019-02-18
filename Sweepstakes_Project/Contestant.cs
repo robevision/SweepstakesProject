@@ -15,12 +15,17 @@ namespace Sweepstakes_Project
         //SPAWNER
         public Contestant()
         {
+            GetInfo();
+            //registrationnumber needs to be added.
+            //GetRegistrationNumber();
+        }
+        //CAN DO
+        public void GetInfo()
+        {
             GetFirstName();
             GetLastName();
             GetEmail();
-            GetRegistrationNumber();
         }
-        //CAN DO
         private string GetFirstName()
         {
             int result = UI.GetRandomNumber(0, 20);
@@ -43,11 +48,6 @@ namespace Sweepstakes_Project
             emailAddress = (firstName + "." + lastName + "@" + domain + ".com");
             return emailAddress;
         }
-        private int GetRegistrationNumber()
-        {
-            int result = UI.GetRandomNumber(100, 1000);
-            registrationNumber = result;
-            return registrationNumber;
-        }
+        
     }
 }

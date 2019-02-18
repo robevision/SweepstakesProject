@@ -8,25 +8,17 @@ namespace Sweepstakes_Project
     public class Sweepstakes
     {
         //HAS A
-        //Contestant contestants;
         //SPAWNER
         //CAN DO
         public void GetSweepstakes(string name)
         {
-            switch (UI.ChooseManagementSystem())
-            {
-                case "stack":
-                    SweepstakesStackManager stackManager = new SweepstakesStackManager();
-                    break;
-                case "queue":
-                    SweepstakesQueueManager queueManager = new SweepstakesQueueManager();
-                    break;
-                default:
-                    break;
-            }
+            //choose type of sweepstakes
         }
         public void RegisterContestant(Contestant contestant)
         {
+            Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
+            contestants.Add(40, contestant);
+
             //check factory pattern
         }
         public string PickWinner()
