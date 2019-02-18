@@ -13,26 +13,18 @@ namespace Sweepstakes_Project
         string emailAddress;
         int registrationNumber;
         //SPAWNER
-        //CAN DO
-        public void GiveFirstName()
+        public Contestant()
         {
-            //ask name
-            Console.WriteLine("Please enter your first name.");
-            firstName = Console.ReadLine();
-            //set up try, catch for invalid entries. Maybe recall input. Does this look right?
-            //Console.WriteLine($"Is {firstName} your first name?");
-            //UI.PromptForYesOrNo();
-            //string yesOrNo = Console.ReadLine().ToLower;
-            //switch (yesOrNo)
-            //{
-            //    case "yes": fadfa;
-            //}
-           
-               
-            //receive name
-            firstName =Console.ReadLine();
+            firstName = null;
+            lastName = null;
+            emailAddress = null;
         }
-        public void GiveLastName()
+        //CAN DO
+        public void GetFirstName()
+        {
+           
+        }
+        public void GetLastName()
         {
             Console.WriteLine("Please enter your last name.");
             lastName = Console.ReadLine();

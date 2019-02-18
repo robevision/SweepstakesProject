@@ -3,7 +3,7 @@
   <Class Name="Sweepstakes_Project.Contestant">
     <Position X="15.25" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACABAAAAAAAAAAAAAQAAAAAACAAAACABAAAA=</HashCode>
+      <HashCode>QAAAAAAACABAAAAAAAAAAAAAAAAAAAACAABACAACAAA=</HashCode>
       <FileName>Contestant.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -51,12 +51,19 @@
   <Class Name="Sweepstakes_Project.UI">
     <Position X="11.5" Y="1.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>UI.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Sweepstakes_Project.ContestantFactory">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContestantFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="Sweepstakes_Project.ISweepstakes">
-    <Position X="17.25" Y="3.5" Width="1.5" />
+    <Position X="16.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ISweepstakes.cs</FileName>

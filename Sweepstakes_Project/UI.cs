@@ -13,6 +13,25 @@ namespace Sweepstakes_Project
         {
             Console.WriteLine("Type yes or no.");
         }
+    public static void GetInfo(Contestant contestant)
+        {
+            //ask name
+            Console.WriteLine("Please enter your first name.");
+            //How do I make the GetInfo() method be in the UI without moving variables over.
+            //Contestant.firstName = Console.ReadLine();
+            //set up try, catch for invalid entries. Maybe recall input. Does this look right?
+            //Console.WriteLine($"Is {firstName} your first name?");
+            //UI.PromptForYesOrNo();
+            //string yesOrNo = Console.ReadLine().ToLower;
+            //switch (yesOrNo)
+            //{
+            //    case "yes": fadfa;
+            //}
+
+
+            //receive name
+            //firstName = Console.ReadLine();
+        }
             
     }
 }
