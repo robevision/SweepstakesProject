@@ -28,18 +28,17 @@ namespace Sweepstakes_Project
 
         public void PrintContestantInfo(Contestant contestant)
         {
-            //Console.WriteLine(contestants);
-
             foreach (KeyValuePair<int, Contestant> person in contestants)
             {
                 if (person.Value == contestant)
                 {
                     Console.WriteLine($"Contestant ID:{person.Key} First Name: {person.Value.firstName} Last Name: {person.Value.lastName} Email: {person.Value.emailAddress}");
                 }
+                else
+                {
+                    Console.WriteLine("This contestant was not found please try again.");
+                }
             }
-
-
-            // do I create a new variable or research how to pass the Contestant object into the Dictionary
         }
       
         

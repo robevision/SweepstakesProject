@@ -13,7 +13,7 @@ namespace Sweepstakes_Project
         //CAN DO
         public void InsertSweepstakes(Sweepstakes sweepstakes)
         {
-
+            Console.WriteLine("Please enter");
         }
         public Sweepstakes GetSweepstakes(string name)
         {

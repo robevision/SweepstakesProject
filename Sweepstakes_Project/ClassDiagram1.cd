@@ -42,18 +42,10 @@
       <FileName>UI.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sweepstakes_Project.SweepstakesFactory">
-    <Position X="9.5" Y="4" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AEAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SweepstakesFactory.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Class Name="Sweepstakes_Project.Sweepstakes">
     <Position X="14.5" Y="5.25" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAQAAAAIAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAABQAAAAAAAAAACAAAAAAAAQAAAAIAAA=</HashCode>
       <FileName>Sweepstakes.cs</FileName>
     </TypeIdentifier>
   </Class>
