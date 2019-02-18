@@ -13,7 +13,17 @@ namespace Sweepstakes_Project
         //CAN DO
         public void GetSweepstakes(string name)
         {
-            throw new System.NotImplementedException();
+            switch (UI.ChooseManagementSystem())
+            {
+                case "stack":
+                    SweepstakesStackManager stackManager = new SweepstakesStackManager();
+                    break;
+                case "queue":
+                    SweepstakesQueueManager queueManager = new SweepstakesQueueManager();
+                    break;
+                default:
+                    break;
+            }
         }
         public void RegisterContestant(Contestant contestant)
         {

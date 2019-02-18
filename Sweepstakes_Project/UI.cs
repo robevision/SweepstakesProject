@@ -41,6 +41,30 @@ namespace Sweepstakes_Project
             //receive name
             //firstName = Console.ReadLine();
         }
-            
+         public static string ChooseManagementSystem()
+        {
+            Console.WriteLine("Which sweepstakes management would you like to use? Type STACK or QUEUE: ");
+            string managementChoice = Console.ReadLine().ToLower();
+            switch (managementChoice)
+            {
+                case "stack":
+                    managementChoice = "stack";
+                    break;
+                case "queue":
+                    managementChoice = "queue";
+                    break;
+                case "s":
+                    managementChoice = "stack";
+                    break;
+                case "q":
+                    managementChoice = "queue";
+                    break;
+                default:
+                    Console.WriteLine("Please type a valid response.");
+                    ChooseManagementSystem();
+                    break;
+            }
+            return managementChoice;
+        }   
     }
 }
