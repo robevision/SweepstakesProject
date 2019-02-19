@@ -15,18 +15,18 @@ namespace Sweepstakes_Project
             //add and take out functionality is needed
         public void InsertSweepstakes(Sweepstakes sweepstakes)
         {
-            Queue<int> myQueue = new Queue<int> { };
-            
+            Queue<int> myQueue = new Queue<int>();
+            {
             myQueue.Enqueue(1);
+            myQueue.Enqueue(5);
             myQueue.Enqueue(2);
-            myQueue.Enqueue(3);
             Console.WriteLine("Elements in queue: ");
             foreach (int number in myQueue)
             {
-                Console.WriteLine(number);
+                Console.WriteLine(sweepstakes);
             }
             int startOfQueue = myQueue.Dequeue();
-            myQueue.Enqueue(5);
+            myQueue.Enqueue(4);
 
             Console.WriteLine("Elements in queue after Dequeue and Enqueue(5): ");
             foreach (int number in myQueue)
@@ -34,7 +34,10 @@ namespace Sweepstakes_Project
                 Console.WriteLine(number);
             }
         }
-        public Sweepstakes GetSweepstakes(string name)
+            
+           
+        }
+        public Sweepstakes GetSweepstakes()
         {
             //Sweepstakes sweepstakes = new Sweepstakes();
             return sweepstakes;

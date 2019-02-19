@@ -22,13 +22,7 @@ namespace Sweepstakes_Project
         {
             Console.WriteLine("Type yes or no.");
         }
-        public static void GetInfo()
-        {
-            GetFirstName();
-            GetLastName();
-            GetEmail();
-            //add to stack or queue to get registrationnumber
-        }
+        
         public static string ChooseManagementSystem()
         {
             Console.WriteLine("Which sweepstakes management would you like to use? Type STACK or QUEUE: ");
@@ -54,7 +48,7 @@ namespace Sweepstakes_Project
             }
             return managementChoice;
         }
-        private static void GetLastName()
+        public static void GetLastName()
         {
             string lastName;
             Console.WriteLine("Please enter your last name.");
@@ -77,7 +71,7 @@ namespace Sweepstakes_Project
                     break;
             }
         }
-        private static void GetEmail()
+        public static void GetEmail()
         {
             string emailAddress;
             Console.WriteLine("Please enter your last name.");
@@ -100,7 +94,7 @@ namespace Sweepstakes_Project
                     break;
             }
         }
-        private static void GetFirstName()
+        public static void GetFirstName()
         {
             string firstName;
             Console.WriteLine("Please enter your first name.");

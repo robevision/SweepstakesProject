@@ -3,7 +3,7 @@
   <Class Name="Sweepstakes_Project.Contestant">
     <Position X="6.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAAAAAAACABAAAAAAAAAAAAAAAAAAEACAABACAACAAA=</HashCode>
+      <HashCode>QAAAAAAACABAAAAAAAAAAAAAAAAAAEACAABASAACAAA=</HashCode>
       <FileName>Contestant.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -26,26 +26,21 @@
   <Class Name="Sweepstakes_Project.MarketingFirm">
     <Position X="14.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAAAAAAAAUAAgBAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEAAABAAAAAAAAgAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MarketingFirm.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="SweepstakesStackManager" />
-      <Property Name="SweepstakesQueueManager" />
-    </ShowAsAssociation>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Sweepstakes_Project.UI">
     <Position X="9.75" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>RAAAAEAACAAARAAAAAAAAAAAAAAAAEAAAAAAAAACABA=</HashCode>
+      <HashCode>RAAAAEAACAAARAAAAAAAAAAAAAAAAAAAAAAAAAACABA=</HashCode>
       <FileName>UI.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sweepstakes_Project.Sweepstakes">
     <Position X="14.5" Y="5.25" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAABQAAAAAAAAAACAAAAAAAAQAAAAIAAA=</HashCode>
+      <HashCode>AAAAAAgAAAAAABQAAAAAAAAAACAAAAAAAAQAAAAIAAA=</HashCode>
       <FileName>Sweepstakes.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -59,7 +54,7 @@
   <Interface Name="Sweepstakes_Project.ISweepstakes">
     <Position X="7" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ISweepstakes.cs</FileName>
     </TypeIdentifier>
   </Interface>

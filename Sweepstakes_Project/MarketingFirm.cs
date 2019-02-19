@@ -5,35 +5,25 @@ using System.Text;
 
 namespace Sweepstakes_Project
 {
-    public class MarketingFirm : ISweepstakesManager
+    public class MarketingFirm
     {
-        public SweepstakesStackManager SweepstakesStackManager
-        {
-            get => default(SweepstakesStackManager);
-            set
-            {
-            }
-        }
 
-        public SweepstakesQueueManager SweepstakesQueueManager
-        {
-            get => default(SweepstakesQueueManager);
-            set
-            {
-            }
-        }
         //HAS A
+        string manager;
         public Sweepstakes sweepstakes;
         //SPAWNER
-        //CAN DO
-        public void InsertSweepstakes(Sweepstakes sweepstakes)
-        {
 
-        }
-        public Sweepstakes GetSweepstakes(string name)
+        //CAN DO
+        public void GetContestants()
         {
-            sweepstakes = new Sweepstakes();
-            return sweepstakes;
+            Contestant contestant = new Contestant();
         }
+
+        public void ManageSweepstakes()
+        {
+            //get factory result
+        }
+      
+     
     }
 }

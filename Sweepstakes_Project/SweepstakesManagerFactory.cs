@@ -7,19 +7,22 @@ namespace Sweepstakes_Project
 {
     public class SweepstakesManagerFactory
     {
-        public void GetSweepstakesManagement()
+        public ISweepstakesManager GetSweepstakesManagement()
         {
             switch (UI.ChooseManagementSystem())
             {
                 case "stack":
                     SweepstakesStackManager stackManager = new SweepstakesStackManager();
-                    break;
+                    return stackManager;
                 case "queue":
                     SweepstakesQueueManager queueManager = new SweepstakesQueueManager();
-                    break;
+                    return queueManager;    
                 default:
+                    GetSweepstakesManagement();
                     break;
             }
+            SweepstakesStackManager stackManager1 = new SweepstakesStackManager();
+            return stackManager1;
         }
             
 }

@@ -8,6 +8,6 @@ namespace Sweepstakes_Project
     public interface ISweepstakes
     {
         //CAN DO
-        Sweepstakes StartSweepstakes();
+        void ManageSweepstakes();
     }
 }

@@ -9,7 +9,12 @@ namespace Sweepstakes_Project
     {
         //HAS A
         Dictionary<int, Contestant> contestants;
+        public static int assignmentNumber{ get; set; }
         //SPAWNER
+        public Sweepstakes()
+        {
+
+        }
         //CAN DO
         public void GetSweepstakes(string name)
         {
@@ -17,9 +22,9 @@ namespace Sweepstakes_Project
         }
         private void RegisterContestant(Contestant contestant)
         {
-            contestants.Add(UI.GetRegistrationNumber(), contestant);
-
-          
+            assignmentNumber = UI.GetRegistrationNumber();
+            contestants.Add(assignmentNumber, contestant);
+            
         }
         public string PickWinner()
         {

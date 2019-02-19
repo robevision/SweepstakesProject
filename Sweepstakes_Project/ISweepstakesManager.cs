@@ -10,6 +10,6 @@ namespace Sweepstakes_Project
         //CAN DO
 
        void InsertSweepstakes(Sweepstakes sweepstakes);
-       Sweepstakes GetSweepstakes(string name);
+       Sweepstakes GetSweepstakes();
     }
 }

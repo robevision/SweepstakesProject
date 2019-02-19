@@ -11,16 +11,21 @@ namespace Sweepstakes_Project
         public string firstName;
         public string lastName;
         public string emailAddress;
-        int registrationNumber;
+        int registrationNumber = Sweepstakes.assignmentNumber;
         //SPAWNER
         public Contestant()
         {
             GetInfo();
-            //registrationnumber needs to be added.
-            //GetRegistrationNumber();
+
         }
         //CAN DO
         public void GetInfo()
+        {
+            UI.GetFirstName();
+            UI.GetLastName();
+            UI.GetEmail();
+        }
+        public void GetGeneratedInfo()
         {
             GetFirstName();
             GetLastName();
@@ -29,8 +34,8 @@ namespace Sweepstakes_Project
         private string GetFirstName()
         {
             int result = UI.GetRandomNumber(0, 20);
-            string[] array = new string[] {"Frank","Philip","Shawntella","Beatrice","Herbert", "Humphrey","Cherish","Samantha","Joe","Jacob","Pedro","Dawn","Casey","Dwayne","John","Thomas"};
-            firstName=array[result];
+            string[] array = new string[] { "Frank", "Philip", "Shawntella", "Beatrice", "Herbert", "Humphrey", "Cherish", "Samantha", "Joe", "Jacob", "Pedro", "Dawn", "Casey", "Dwayne", "John", "Thomas" };
+            firstName = array[result];
             return firstName;
         }
         private string GetLastName()
@@ -48,6 +53,6 @@ namespace Sweepstakes_Project
             emailAddress = (firstName + "." + lastName + "@" + domain + ".com");
             return emailAddress;
         }
-        
+
     }
 }
